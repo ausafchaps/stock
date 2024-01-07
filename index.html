@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stock Table</title>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="stock.js"></script>
+  <script src="datastore.js"></script>
+  <script src="main.js"></script>
+</head>
+<body>
+  <label for="exchangeDropdown">Select Exchange:</label>
+  <select id="exchangeDropdown">
+    <option value="TDWL">TDWL</option>
+    <option value="DFM">DFM</option>
+  </select>
+  <table id="stockTable" border="10">
+    <thead>
+      <tr>
+        <th>Symbol</th>
+        <th>Open</th>
+        <th>High</th>
+        <th>Low</th>
+        <th>Close</th>
+        <th>Bid</th>
+        <th>Ask</th>
+        <th>Trade Date</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</body>
+</html>
